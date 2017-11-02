@@ -14,6 +14,9 @@
 		75DFDC171FAB50C600C5D61B /* ApplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFDC141FAB50C600C5D61B /* ApplesViewController.swift */; };
 		75DFDC181FAB50C600C5D61B /* PearsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFDC151FAB50C600C5D61B /* PearsViewController.swift */; };
 		75DFDC191FAB50C600C5D61B /* FruitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFDC161FAB50C600C5D61B /* FruitsViewController.swift */; };
+		75DFDC1B1FAB536A00C5D61B /* UILabel+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFDC1A1FAB536A00C5D61B /* UILabel+HTML.swift */; };
+		75DFDC1D1FAB538100C5D61B /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFDC1C1FAB538100C5D61B /* String+HTML.swift */; };
+		75DFDC1F1FAB53A200C5D61B /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFDC1E1FAB53A200C5D61B /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		75DFDC141FAB50C600C5D61B /* ApplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplesViewController.swift; sourceTree = "<group>"; };
 		75DFDC151FAB50C600C5D61B /* PearsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PearsViewController.swift; sourceTree = "<group>"; };
 		75DFDC161FAB50C600C5D61B /* FruitsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitsViewController.swift; sourceTree = "<group>"; };
+		75DFDC1A1FAB536A00C5D61B /* UILabel+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+HTML.swift"; sourceTree = "<group>"; };
+		75DFDC1C1FAB538100C5D61B /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
+		75DFDC1E1FAB53A200C5D61B /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		9554A92E6618708318411AE8 /* Pods-Fruits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruits.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fruits/Pods-Fruits.release.xcconfig"; sourceTree = "<group>"; };
 		E05370F1AE3C68D008CB7942 /* Pods-Fruits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fruits.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fruits/Pods-Fruits.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +90,9 @@
 				75DFDC161FAB50C600C5D61B /* FruitsViewController.swift */,
 				75DFDC141FAB50C600C5D61B /* ApplesViewController.swift */,
 				75DFDC151FAB50C600C5D61B /* PearsViewController.swift */,
+				75DFDC1A1FAB536A00C5D61B /* UILabel+HTML.swift */,
+				75DFDC1C1FAB538100C5D61B /* String+HTML.swift */,
+				75DFDC1E1FAB53A200C5D61B /* UIColor+Hex.swift */,
 				75DFDC091FAB508300C5D61B /* Assets.xcassets */,
 				75DFDC0B1FAB508300C5D61B /* LaunchScreen.storyboard */,
 				75DFDC0E1FAB508300C5D61B /* Info.plist */,
@@ -221,9 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DFDC1F1FAB53A200C5D61B /* UIColor+Hex.swift in Sources */,
 				75DFDC031FAB508300C5D61B /* AppDelegate.swift in Sources */,
 				75DFDC171FAB50C600C5D61B /* ApplesViewController.swift in Sources */,
 				75DFDC191FAB50C600C5D61B /* FruitsViewController.swift in Sources */,
+				75DFDC1D1FAB538100C5D61B /* String+HTML.swift in Sources */,
+				75DFDC1B1FAB536A00C5D61B /* UILabel+HTML.swift in Sources */,
 				75DFDC181FAB50C600C5D61B /* PearsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
